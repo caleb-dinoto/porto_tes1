@@ -57,7 +57,7 @@ const projects = [
 	},
 	{
 		year: "2022",
-		title: "Alvalens Website",
+		title: "Caleb Website",
 		tech: "Javascript, Next Js, TailwindCSS",
 		github: "https://github.com/Alvalens/Alvalens-porto-1",
 		preview: "https://alvalens.my.id",

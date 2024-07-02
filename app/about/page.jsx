@@ -42,7 +42,7 @@ export default function Page() {
 							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
 							<Image
 								src={Me2}
-								alt="Alvalens"
+								alt="Caleb"
 								layout="fill"
 								objectFit="cover"
 								placeholder="blur"
@@ -97,7 +97,7 @@ export default function Page() {
 									className="w-full h-full">
 									<Image
 										src={Me1}
-										alt="Alvalens"
+										alt="Caleb"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -120,7 +120,7 @@ export default function Page() {
 									className="w-full h-full">
 									<Image
 										src={Me2}
-										alt="Alvalens"
+										alt="Caleb"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -145,7 +145,7 @@ export default function Page() {
 									className="w-full h-full">
 									<Image
 										src={Me3}
-										alt="Alvalens"
+										alt="Caleb"
 										layout="fill"
 										objectFit="cover"
 										placeholder="blur"
@@ -170,10 +170,10 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							Alvalen Shafelbilyunazra
+							Caleb Steve Dinoto
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							Hey there, I&rsquo;m Alvalen Shafelbilyunazra, a
+							Hey there, I&rsquo;m Caleb Steve Dinoto
 							<span className="text-black font-medium">
 								{" "}
 								tech enthusiast
@@ -187,7 +187,7 @@ export default function Page() {
 							I&rsquo;m currently embarking on a fascinating
 							journey at{" "}
 							<span className="text-black font-medium">
-								Universitas Negeri Malang,
+								Universitas Multimedia Nusantara,
 							</span>{" "}
 							where I&rsquo;m pursuing my degree in{" "}
 							<span className="text-black font-medium">
@@ -400,7 +400,7 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold mb-3">
-							Education | Universitas Negeri Malang
+							Education | Universitas Multimedia Nusantara
 						</h2>
 						<h3 className="text-md font-medium mb-3 text-gray-500">
 							Teknik Informatika | 2022 - Now
@@ -408,7 +408,7 @@ export default function Page() {
 						<p className="pl-3 text-gray-500  relative text-justify">
 							<span className="before:border-s-2 before:absolute before:left-0 before:top-0 before:h-full before:border-gray-400 before:block before:w-2 before:content-'' "></span>
 							I&rsquo;m currently in my third semester at
-							Universitas Negeri Malang, majoring in Informatics
+							Universitas Multimedia Nusantara, majoring in Informatics
 							Engineering. This journey has been nothing short of
 							exhilarating, filled with countless opportunities to
 							learn and grow. With a steadfast dedication to my
