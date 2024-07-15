@@ -13,7 +13,7 @@ const Chat = () => {
 			var e = T.createElement(i);
 			var l = I.location;
 			e.async = true;
-			e.src = (L || c) + "/client/inject-v2.min.js";
+			e.src = (L || c) + "/client/inject-v2.min.js";    
 			h.insertBefore(e, h.firstChild);
 			I.iticks.call = function (a, b) {
 				I.iticks.queue.push([a, b]);
