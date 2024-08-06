@@ -6,19 +6,19 @@ import Button from "@/components/Button";
 import Image from "next/legacy/image";
 
 // images
-import ReactChat1 from "@/public/projects/react-chat.png";
-import ReactChat2 from "@/public/projects/react-chat2.png";
-import ReactChat3 from "@/public/projects/react-chat3.png";
+import OMB1 from "@/public/projects/OMB1.png";
+import OMB2 from "@/public/projects/OMB2.png";
+import OMB3 from "@/public/projects/OMB3.png";
 import ProjectAll from "@/public/img/projects-all.jpg";
 // main project image
-import LUDOang from "@/public/projects/main-project/ludo.png";
-import ReactChatMain from "@/public/projects/main-project/react-chat.png";
-import ReactTools from "@/public/projects/main-project/react-tools.png";
-import AlephBot from "@/public/projects/main-project/aleph-bot.png";
-import LPTK from "@/public/projects/lptk/lptk1.png";
-import NUINO from "@/public/projects/ino/ino1.png";
-import UnmuhJember from "@/public/projects/unmuh/unmuh1.png";
-import Porto from "@/public/projects/porto/porto1.png";
+import starlight from "@/public/projects/starlight/star1.png";
+import onair from "@/public/projects/Tvonair/tv1.png";
+import omb2024 from "@/public/projects/OMB2024/tools.png";
+import news from "@/public/projects/swaranews/sw1.png";
+import UMNHUB from "@/public/projects/HCI/HCI1.png";
+import raka from "@/public/projects/GGJ/raka1.png";
+import AIKO from "@/public/projects/petsop/petsop1.png";
+import Porto from "@/public/projects/porto/7day.png";
 
 import Hr from "@/components/Hr";
 import FixedButon from "@/components/FixedButton";
@@ -27,68 +27,60 @@ import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 
 const projects = [
 	{
-		title: "LUDOang",
-		desc: "LUDOang is a game created using python and pygame. This game is inspired by LUDO game.",
-		year: "2023",
-		tech: "Python, Pygame, OpenGL",
-		bg: LUDOang,
-		slug: "ludoang",
+		title: "Starlight UMN",
+		desc: "Starlight is one of the student activities designed to accommodate and channel individual interests and talents.",
+		year: "2024",
+		tech: "react, laravel",
+		bg: starlight,
+		slug: "starlight",
 	},
 	{
-		title: "React Chat WebApp",
-		desc: "My second React project. This project is a realtime chat webapp that I created using ReactJS, Firebase, and TailwindCSS.",
+		title: "TVonair",
+		desc: "My second React project. This project is a landing page that I created using ReactJS, and TailwindCSS.",
 		year: "2023",
-		tech: "Javascript, React Js, Firebase, Daisy UI",
-		bg: ReactChatMain,
-		slug: "react-chat",
+		tech: "Javascript, React Js",
+		bg: onair,
+		slug: "tv-onair",
 	},
 	{
-		title: "React Tools",
-		desc: "My first React project. contain three main tools: Todo List, Note, and Expense Tracker that usefull for daily activity",
-		year: "2023",
-		tech: "Javascript, React Js, TailwindCSS",
-		bg: ReactTools,
-		slug: "react-tools",
-	},
-	{
-		title: "Aleph Discord Bot",
+		title: "Swara Pembangunan News",
 		desc: "Discord bot that can search images on google and send the result to discord channel, with this bot you can search images on google without leaving discord.",
-		year: "2023",
-		tech: "Python, Serp API, Discord.py",
-		bg: AlephBot,
-		slug: "aleph-discord-bot",
+		year: "2024",
+		tech: "WordPress, Premium WordPress Theme",
+		bg: news,
+		slug: "swara-pembangunan-news",
 	},
 	{
-		title: "LPTK Cup 2023 Website",
-		desc: "LPTK Cup 2023 is a website for a competition that held by Universitas Multimedia Nusantara. This is my second freelance project using Laravel.",
+		title: "UMN HUB (UI/UX)",
+		desc: "A game project that my friends and I made in the 4th semester at the Global Game Jam 2023 event",
 		year: "2023",
-		tech: "PHP, Laravel, Bootstrap, JQuery, MySQL",
-		bg: LPTK,
-		slug: "lptk-cup-2023",
+		tech: "FIGMA",
+		bg: UMNHUB,
+		slug: "HCI-FIGMA",
 	},
 	{
-		title: "NU INO Website",
-		desc: "My first freelance project. This project is a website for a School based on a JALAKAR curriculum. The website is built mainly using Laravel and Bootstrap.",
+		title: "The Great Adventure of Raka",
+		desc: "A game project that my friends and I made in the 4th semester at the Global Game Jam 2023 event",
 		year: "2023",
-		tech: "PHP, Laravel, Livewire, Bootstrap, JQuery, MySQL",
-		bg: NUINO,
-		slug: "nu-ino-website",
+		tech: "C#, Unity",
+		bg: raka,
+		slug: "raka-website",
 	},
 	{
-		title: "Unmuh Jember Landing Page",
-		desc: "Landing page for Universitas Muhammadiyah Jember. This web is made for competition held by Universitas Muhammadiyah Jember.",
-		year: "2023",
-		tech: "HTML, CSS, Javascript",
-		bg: UnmuhJember,
-		slug: "unmuh-jember-landing-page",
-	},
-	{
-		title: "My First Portofolio Website",
-		desc: "My first portofolio website that i created using HTML, CSS, and Javascript. This website is the reason why i learn web development.",
+		title: "AIKO PETSHOP",
+		desc: "My friends and I developed a landing page for small and medium-sized enterprises (SMEs) as our final project in the third semester.",
 		year: "2022",
-		tech: "HTML, CSS, Javascript, Bootstrap",
+		tech: "PHP, Laravel, Bootstap, MySQL, javascript",
+		bg: AIKO,
+		slug: "PTI-projek",
+	},
+	{
+		title: "7 days UMN",
+		desc: "the first React website I created with my friends was a web-based simulation game that takes users through a seven-day experience at UMN.",
+		year: "2022",
+		tech: "HTML, CSS, Javascript, react",
 		bg: Porto,
-		slug: "my-first-portofolio-website",
+		slug: "7-days-umn-webpro",
 	},
 ];
 
@@ -108,8 +100,8 @@ export default function Page() {
 						className="text-black pr-10"
 					/>
 				</FixedButon>
-				<div className="relative h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden">
-					<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
+				<div className="relative h-screen w-screen  gap-4 p-0 flex justify-center items-center flex-col mb-10 overflow-hidden">
+					{/* <div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
 						<motion.div
 							initial={{ scale: 1 }}
 							animate={{ scale: 1.6 }}
@@ -123,7 +115,7 @@ export default function Page() {
 								placeholder="blur"
 							/>
 						</motion.div>
-					</div>
+					</div> */}
 					<div className="z-10 w-full absolute md:w-auto md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 pt-4 backdrop-filter backdrop-blur-sm md:backdrop-blur-none md:backdrop-filter-none bg-gray-100 bg-opacity-50 md:bg-transparent md:pt-0">
 						<h1 className="md:bg-white bg-transparent lg:bg-transparent bg-opacity-50 md-px-0 text-black text-5xl md:text-8xl font-bold">
 							My Projects
@@ -160,7 +152,7 @@ export default function Page() {
 				</div>
 				<div className="relative w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
 					<div className="flex justify-center items-start flex-col mb-5 ">
-						<div className="images relative w-full  aspect-square">
+						<div className="images relative w-full aspect-square rounded-xl">
 							<div className="absolute top-28 left-10 w-[50%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300 hover:scale-150">
 								<motion.div
 									initial={{ opacity: 0, scale: 0.5, x: 100 }}
@@ -171,7 +163,7 @@ export default function Page() {
 									}}
 									className="w-full h-full shadow-lg">
 									<Image
-										src={ReactChat1}
+										src={OMB1}
 										alt="Caleb"
 										layout="fill"
 										objectFit="cover"
@@ -194,7 +186,7 @@ export default function Page() {
 									transition={{ delay: 0.3 }}
 									className="w-full h-full shadow-lg ">
 									<Image
-										src={ReactChat3}
+										src={OMB2}
 										alt="Caleb"
 										layout="fill"
 										objectFit="cover"
@@ -220,7 +212,7 @@ export default function Page() {
 									}}
 									className="w-full h-full shadow-lg">
 									<Image
-										src={ReactChat2}
+										src={OMB3}
 										alt="Caleb"
 										layout="fill"
 										objectFit="cover"
@@ -246,29 +238,25 @@ export default function Page() {
 							type: "spring",
 						}}>
 						<h2 className="text-2xl font-bold tracking-wider mb-3">
-							React Chat WebApp
+							OMB UMN 2024
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							React Chat WebApp is a chat application that I
-							created using ReactJS, Firebase, and TailwindCSS.
-							This is my second project using ReactJS and
-							Firebase. I created this project to learn more about
-							ReactJS and Firebase. I also use TailwindCSS to make
-							the UI more beautiful and responsive. In this
-							project i learn many things about react and
-							firebase, such as react hooks, react router,
-							firebase authentication, firebase firestore, and
-							firebase storage. You can see the source code of
-							this project on my github account or preview the
-							project by clicking the button below.
+							As a member of the website division committee for the OMB UMN 2024 website,
+							my colleague and I worked as UI/UX designers, collaborating closely with
+							the Frontend team. This experience was invaluable, as I learned to create
+							more structured designs by focusing on color usage, supergraphics, and an
+							improved design flow. These efforts resulted in mockup designs and website
+							prototypes that are not only visually appealing but also comfortable for
+							users to navigate.
+
 						</p>{" "}
 						<div className="mt-3">
 							<Button variation="primary">
-								<Link href="projects/react-chat ">More</Link>
+								<Link href="projects/OMB2024 ">More</Link>
 							</Button>
 							<Button variation="secondary">
 								<a
-									href="https://react-chat-rouge.vercel.app/"
+									href="https://omb.umn.ac.id/"
 									target="_blank"
 									rel="noopener noreferrer">
 									Preview

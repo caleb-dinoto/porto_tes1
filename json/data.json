@@ -1,176 +1,159 @@
 {
   "Projects": [
     {
-      "title": "LUDOang",
+      "title": "Starlight UMN",
       "desc": [
-        "LUDOang is a game that my team and I created for a final project in my university. The game is built python, pygame, and OpenGL. The game is a 2D game that is inspired by a Ludo game. The game has a few features such randomZone, and a 3D dice.",
-        "RandomZone is a feature that allows the player to get a random number of steps. The 3D dice is a feature that allows the player to roll a 3D dice. The game also has a few other features menuy screen and also loading screen.", "Beside that the game also has a audio theme that will play when the game is started. The game also has a few sound effects such as dice roll sound, and a sound when the player win the game."
+        "Starlight is one of the student activities under the supervision of BEM Universias Multimedia Nusantara to accommodate and channel individual interests and talents. The Starlight Student Activity seeks to encourage the community to believe in the development of their respective talents."
       ],
-      "year": "2023",
-      "preview": "https://github.com/Alvalens/ludo-game/releases/tag/pre-release",
-      "code": "https://github.com/Alvalens/ludo-game",
+      "year": "2024",
+      "preview": "https://starlight.umn.ac.id/",
       "images": [
-        "/projects/LUDOang/ludo1.png",
-        "/projects/LUDOang/ludo2.png",
-        "/projects/LUDOang/ludo3.png"
+        "/projects/starlight/star1.png",
+        "/projects/starlight/star2.png",
+        "/projects/starlight/star3.png",
+        "/projects/starlight/star4.png"
       ],
       "tech": [
-        "Python",
-        "Pygame",
-        "OpenGL"
-      ], 
-      "slug": "ludoang"
+        "React"
+      ],
+      "slug": "starlight"
     },
     {
-      "title": "React Realtime Chat",
+      "title": "TVonair",
       "desc": [
-        "My ambitious project that delves into the world of interactive web development using React. This project is a realtime chat application that allows users to create chat rooms and chat with other users in realtime. The application is built using React, Firebase, and Daisy UI.",
-        "This project is my second react project and my first project using Firebase. I learned a lot about how to use Firebase and how to use React to create a realtime application. I also learned how to use Daisy UI, a CSS framework that is built on top of Tailwind CSS. "
+        "Panel Discussion is a TVONAIR talk show event involving media practitioners and influencers with the theme \"The Future World of Digital Marketing and Visual Technology\", which highlights the development of social media and its potential in the future and invites young people and the public to play a role in increasing brand awareness through visuals storytelling and digital marketing.",
+        "Sharing and Discussion (SnD) is a discussion forum for dozens of campus television media that raises current issues and their obstacles. With a round table conference concept, this year's SnD has the theme Collaborative Digital Media: Exploring Ethical Challenges, Social Responsibility, and Media Creativity. The focus is on collaboration between media to create innovation, different values, and understanding of ethics and social responsibility within the scope of media."
       ],
       "year": "2023",
-      "preview": "https://react-chat-rouge.vercel.app",
-      "code": "https://github.com/Alvalens/react-realtime-chat",
+      "preview": "https://tvonair.umn.ac.id/",
       "images": [
-        "/projects/chat/chat1.png",
-        "/projects/chat/chat2.png",
-        "/projects/chat/chat3.png",
-        "/projects/chat/chat4.png"
+        "/projects/Tvonair/tv1.png",
+        "/projects/Tvonair/tv2.png"
       ],
       "tech": [
         "JavaScript",
-        "React",
-        "React Router",
-        "Firebase",
-        "Daisy UI"
+        "React"
       ],
-      "slug": "react-chat"
+      "slug": "tv-onair"
     },
     {
-      "title": "React Tools",
+      "title": "OMB UMN 2024 (UI/UX designer)",
       "desc": [
-        "React Tools is a groundbreaking and user-friendly project that brings together a comprehensive collection of tools and components crafted with cutting-edge technologies, including React, React Router, and TailwindCSS. What sets this project apart is that it's not just a suite of powerful features, but it's also a significant milestone as it marks my very first venture into the world of React development.",
-
-        "Unlike traditional web applications, React Tools cleverly utilizes browser local storage, eliminating the need for external databases. This not only ensures seamless performance but also prioritizes user data privacy. ",
-
-        "The Todo List keeps tasks in check with intuitive task management capabilities, ensuring you never miss a beat. The note-taking feature provides a hassle-free way to jot down ideas and crucial information, accessible whenever inspiration strikes. Additionally, our robust expense tracker simplifies financial management by recording and categorizing expenses, delivering insightful spending analysis."
+        "In developing the prototypes and mockups for the OMBUMN 2024 website, we utilized Figma. We collaborated with the design division to acquire ",
+        "assets created in Photoshop and worked closely with the public relations division to craft the website’s content and wording."
       ],
-      "year": "2023",
-      "preview": "https://react-tools-flax.vercel.app",
-      "code": "https://github.com/Alvalens/react-tools",
+      "year": "2024",
+      "preview": "https://omb.umn.ac.id/",
       "images": [
-        "/projects/tools/tools.png",
-        "/projects/tools/tools1.png",
-        "/projects/tools/tools2.png",
-        "/projects/tools/tools3.png"
+        "/projects/OMB2024/tools.png",
+        "/projects/OMB2024/tools1.png",
+        "/projects/OMB2024/tools2.png"
       ],
       "tech": [
         "Javascript",
         "React",
-        "React Router",
         "TailwindCSS"
       ],
-      "slug": "react-tools"
+      "slug": "OMB2024"
     },
     {
-      "title": "Aleph Discord Bot",
+      "title": "Swara Pembangunan News",
       "desc": [
-        "Aleph is a Discord bot that I created for my dircord server to use. The bot is built using Python and the discord.py library. The bot has image grabber feauture that takes argument (keywords) and returns an image from the internet.", "Other than that this bot has a few other features such as utility command to delete a messages, and a command to get the server's ping. This bot is still in development and I plan to add more features in the future."],
-      "year": "2023",
-      "preview": "",
+        "Swara Pembangunan News was my first project using WordPress CMS, where I developed a news channel website. We customized a WordPress theme to create a tailored news platform featuring categories such as nasional, Daerah, Ragam, Seni Budaya, Hiburan.",
+        "We consistently post several news articles each week. The development phase took 2 days to adapt the theme for the news channel, and Swara Pembangunan News will continue to be updated with ongoing improvements to enhance user experience."
+      ],
+      "year": "2024",
+      "preview": "https://swarapembangunannews.com/",
       "code": "https://github.com/Alvalens/aleph-discord-bot",
       "images": [
-        "/projects/bot/bot1.png",
-        "/projects/bot/bot2.png"
+        "/projects/swaranews/sw1.png",
+        "/projects/swaranews/sw2.png",
+        "/projects/swaranews/sw3.png"
       ],
       "tech": [
-        "Python",
-        "Discord.py",
-        "Google Serp API"
+        "WordPress",
+        "Premium WordPress Theme"
       ],
-      "slug": "aleph-discord-bot"
-    }, 
-    {
-      "title": "LPTK Cup 2023 Website",
-      "desc": [
-        "LPTK Cup UM is a website that I created for a competition held by  the Universitas Negeri Malang. The website is mainly built using Laravel and Bootstrap. The website has a few features such as a registration form, a login system, article system, file upload,  and a dashboard for the admin to manage the contents.",
-        "This project is my second freelance project, this project is not as big as my first freelance project but I learned a lot from this project. I learn how to manage a project and how to work with a team."
-      ],
-      "year": "2023",
-      "preview": "",
-      "code": "",
-      "images": [
-        "/projects/lptk/lptk1.png",
-        "/projects/lptk/lptk2.png",
-        "/projects/lptk/lptk3.png",
-        "/projects/lptk/lptk3.png"
-      ],
-      "tech": [
-        "PHP",
-        "Laravel",
-        "Bootstrap",
-        "MySQL",
-        "jQuery",
-        "DataTables"
-      ],
-      "slug": "lptk-cup-2023"
-    }, 
-    {
-      "title": "NU INO Website",
-      "desc": [
-        "My first freelance project. This project is a website for a School based on a JALAKAR curriculum. The website is built mainly using Laravel and Bootstrap.", "This website is LMS like system, have a user management, user auth, quiz and material for student and FAQ",  "In this project I learned how to work with a team and how to manage a project. I also learned new library such as livewire and alpine.js."],
-      "year": "2023",
-      "preview": "",
-      "code": "",
-      "images": [
-        "/projects/ino/ino1.png",
-        "/projects/ino/ino2.png",
-        "/projects/ino/ino3.png"
-      ],
-      "tech": [
-        "PHP",
-        "Laravel",
-        "Bootstrap",
-        "Livewire",
-        "MySQL",
-        "jQuery",
-        "DataTables"
-      ],
-      "slug": "nu-ino-website"
+      "slug": "swara-pembangunan-news"
     },
     {
-      "title": "Unmuh Jember Landing Page",
+      "title": "UMN HUB (UI/UX)",
       "desc": [
-        "Unmuh Jember landing page is a website that I created for a competition held by Universitas Muhammadiyah Jember. The website is built natively using HTML, CSS, and JavaScript. The website has a few features such as a registration form, a login system, and a dashboard for the admin to manage the contents.",
-        "This project is my first freelance project and my first project using JavaScript. I learned a lot about how to use JavaScript and how to use it to create a website. I also learned how to work with a team and how to manage a project."
+        "The umnHUB prototype is a redesigned version of the UNION UMN application. It uses the Genius Design method to understand the needs of UMN students while following the principles of the 8 Golden Rules.",
+        "umnHUB includes new features and pays special attention to color composition, guided by the CoreDesignSystem.",
+        "The purpose of umnHUB is to streamline academic processes, make it easier for students to access necessary information, provide more comprehensive services, simplify access to key features, and facilitate communication between students and lecturers within a single platform."
       ],
       "year": "2023",
-      "preview": "https://alvalens.github.io/unmuh-jember-landing-page/",
-      "code": "https://github.com/Alvalens/unmuh-jember-landing-page",
+      "preview": "https://www.figma.com/proto/NrGiRyIYgWAQqkLFEmK1An/ProjekUAS_Kelompok1_IF450_D_Aequorea?page-id=0%3A1&node-id=270-1930&starting-point-node-id=270%3A1930&t=HvDBfS58oPdrzxA1-1",
+      "code": "",
       "images": [
-        "/projects/unmuh/unmuh1.png",
-        "/projects/unmuh/unmuh2.png",
-        "/projects/unmuh/unmuh3.png"
+        "/projects/HCI/HCI1.png",
+        "/projects/HCI/HCI3.png",
+        "/projects/HCI/HCI2.png"
       ],
       "tech": [
-        "HTML",
-        "CSS",
-        "JavaScript"
+        "FIGMA"
       ],
-      "slug": "unmuh-jember-landing-page"
+      "slug": "HCI-FIGMA"
     },
     {
-      "title": "My First Portofolio Website",
+      "title": "The Great Adventure of Raka",
       "desc": [
-        "This Project is my first portfolio website. This website is built using HTML, CSS, and JavaScript. First project that I deployed to the internet. Also my first time using Bootstrap.",
-        "I learned a lot about web developement in this project. I Also learn how to use Git and Github. This project is the reason why I started to learn web development."
+        "This is my first project to develop a game using C# and Unity within 48 hours. Together with 6 other partners, we developed a game consisting of 4 programmers, ",
+        "and 1 person each 2D artist, story maker, and game designer. We succeeded in developing a platformer game with a plant theme entitled \"The Great Adventure of Raka\".",
+        "In the stage of making this game I learned a lot and was greatly helped by Faris Pradiatma as a programmer who worked on most of this project."
+      ],
+      "year": "2023",
+      "preview": "https://globalgamejam.org/2023/games/great-adventure-raka-8",
+      "code": "https://github.com/SashimiEnjoyer/Platformer-GGJ-2023",
+      "images": [
+        "/projects/GGJ/raka1.png",
+        "/projects/GGJ/raka2.png",
+        "/projects/GGJ/raka3.png",
+        "/projects/GGJ/raka4.png"
+      ],
+      "tech": [
+        "C#",
+        "Unity"
+      ],
+      "slug": "raka-website"
+    },
+    {
+      "title": "AIKO PETSHOP ",
+      "desc": [
+        "This project was quite challenging as I spent 3-4 days searching for clients or SMEs interested in a free profile website for my 3th semester final project. I went around Gading Serpong and faced 10 rejections before finally connecting with AIKO PETSHOP.",
+        "The website was developed through several stages, starting with creating a flowchart, designing table relationships and the database, moving on to mockup creation, and culminating in the final development phase."
       ],
       "year": "2022",
-      "preview": "https://alvalens.my.id",
-      "code": "https://github.com/Alvalens/Alvalens-porto-1",
+      "code": "https://github.com/caleb-dinoto/AIKOPETSHOP",
       "images": [
-        "/projects/porto/porto1.png",
-        "/projects/porto/porto2.png",
-        "/projects/porto/porto3.png"
+        "/projects/petsop/petsop1.png",
+        "/projects/petsop/petsop2.png",
+        "/projects/petsop/petsop3.png",
+        "/projects/petsop/petsop4.png",
+        "/projects/petsop/petsop5.png"
+      ],
+      "tech": [
+        "PHP",
+        "Laravel",
+        "Bootstrap",
+        "MySQL"
+      ],
+      "slug": "PTI-projek"
+    },
+    {
+      "title": "7 DAYS UMN",
+      "desc": [
+        "This project was my first experience using React to develop a website. The site was built with HTML, CSS, JavaScript, and React.",
+        "I learned a lot about using React through this project, and I also gained experience with GitHub and Git. Additionally, this project served as the final assignment for my second-semester course."
+      ],
+      "year": "2022",
+      "code": "https://github.com/caleb-dinoto/7DAYSUMN",
+      "images": [
+        "/projects/porto/7day.png",
+        "/projects/porto/7day1.png",
+        "/projects/porto/7day2.png",
+        "/projects/porto/7day3.png"
       ],
       "tech": [
         "HTML",
@@ -179,7 +162,7 @@
         "AOS",
         "JavaScript"
       ],
-      "slug": "my-first-portofolio-website"
+      "slug": "7-days-umn-webpro"
     }
   ]
 }

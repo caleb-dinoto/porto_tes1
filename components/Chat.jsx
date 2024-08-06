@@ -5,29 +5,36 @@ import { useEffect } from "react";
 // Component for Intelliticks chat widget
 const Chat = () => {
 	useEffect(() => {
-		// Paste the Intelliticks script here
-		(function (I, L, T, i, c, k, s) {
-			if (I.iticks) return;
-			I.iticks = { host: c, settings: s, clientId: k, cdn: L, queue: [] };
-			var h = T.head || T.documentElement;
-			var e = T.createElement(i);
-			var l = I.location;
-			e.async = true;
-			e.src = (L || c) + "/client/inject-v2.min.js";    
-			h.insertBefore(e, h.firstChild);
-			I.iticks.call = function (a, b) {
-				I.iticks.queue.push([a, b]);
+		(function (Q, R) {
+			if (Q.__qr__) return;
+			Q.__qr__ = {
+				brandSetting: {
+					includePageLink: false,
+					messageText: "Hi.. I have a query.",
+					phoneNumber: "+6289507576487"
+				},
+				chatButtonSetting: {
+					sideMargin: 20,
+					marginBottom: 20,
+					position: "right",
+					buttonType: "ICON",
+					buttonText: undefined,
+					buttonBgColor: "#04AA6D",
+					buttonTextColor: "#fff"
+				}
 			};
-		})(
-			window,
-			"https://cdn-v1.intelliticks.com/prod/common",
-			document,
-			"script",
-			"https://app.intelliticks.com",
-			"u3cWw3sDpdKexqXCY_c",
-			{}
-		);
+			var u = 'https://webview.quickreply.ai/whatsapp/script-v2.min.js';
+			var h = R.head || R.documentElement;
+			var e = R.createElement('script');
+			e.type = 'text/javascript';
+			e.async = true;
+			e.src = u;
+			h.insertBefore(e, h.lastChild);
+		})(window, document);
 	}, []);
+
+
+
 
 	return null;
 };

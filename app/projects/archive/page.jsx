@@ -8,94 +8,56 @@ import FixedButon from "@/components/FixedButton";
 import { faChevronLeft } from "@fortawesome/free-solid-svg-icons";
 const projects = [
 	{
-		year: "2023",
-		title: "LUDOang",
-		tech: "Python, Pygame, OpenGL",
-		github: "https://github.com/Alvalens/ludo-game",
-		preview: "https://github.com/Alvalens/ludo-game/releases/tag/pre-release"
+		year: "2024",
+		title: "OMB UMN 2024 (UI/UX designer)",
+		tech: "FIGMA, React",
+		preview: "https://omb.umn.ac.id/",
+	},
+	{
+		year: "2024",
+		title: "Starlight",
+		tech: "react",
+		preview: "https://starlight.umn.ac.id/",
+	},
+	{
+		year: "2024",
+		title: "Swara Pembangunan News",
+		tech: "WordPress, Premium WordPress Theme",
+		preview: "https://swarapembangunannews.com/",
 	},
 	{
 		year: "2023",
-		title: "React Realtime Chat",
-		tech: "Javascript, React Js, Firebase, Daisy UI",
-		github: "https://github.com/Alvalens/react-realtime-chat",
-		preview: "https://react-chat-rouge.vercel.app",
+		title: "TVonair",
+		tech: "react",
+		preview: "https://tvonair.umn.ac.id/",
 	},
 	{
 		year: "2023",
-		title: "React Tools",
-		tech: "Javascript, React Js, TailwindCSS",
-		github: "https://github.com/Alvalens/react-tools",
-		preview: "react-tools-flax.vercel.app",
+		title: "UMN HUB (UI/UX)",
+		tech: "FIGMA",
+		preview: "https://www.figma.com/proto/NrGiRyIYgWAQqkLFEmK1An/ProjekUAS_Kelompok1_IF450_D_Aequorea?page-id=0%3A1&node-id=270-1930&starting-point-node-id=270%3A1930&t=HvDBfS58oPdrzxA1-1",
 	},
 	{
 		year: "2023",
-		title: "Aleph Discord Bot",
-		tech: "Python, Serp API, Discord.py",
-		github: "https://github.com/Alvalens/aleph-discord-bot",
-	},
-	{
-		year: "2023",
-		title: "LPTK CUP UM 2023",
-		tech: "PHP, Laravel, Bootstrap, MySQL, jQuery, DataTables",
-		github: "",
-		preview: "",
-	},
-	{
-		year: "2023",
-		title: "NU INO Website",
-		tech: "PHP, Laravel, Livewire Bootstrap, MySQL, jQuery, DataTables",
-		github: "",
-		preview: "",
-	},
-	{
-		year: "2023",
-		title: "Unmuh Jember Landing Page",
-		tech: "HTML, CSS, Javascript",
-		github: "https://github.com/Alvalens/unmuh-jember-landing-page",
-		preview: "https://alvalens.github.io/unmuh-jember-landing-page/",
+		title: "The Great Adventure of Raka",
+		tech: "Unity",
+		github: "https://github.com/SashimiEnjoyer/Platformer-GGJ-2023",
+		preview: "https://v3.globalgamejam.org/2023/games/great-adventure-raka-8",
 	},
 	{
 		year: "2022",
-		title: "Caleb Website",
-		tech: "Javascript, Next Js, TailwindCSS",
-		github: "https://github.com/Alvalens/Alvalens-porto-1",
-		preview: "https://alvalens.my.id",
+		title: "AIKO PETSHOP",
+		tech: "FIGMA, PHP, Laravel, Bootstrap, MySQL",
+		github: "https://github.com/caleb-dinoto/AIKOPETSHOP",
+
 	},
-	{
-		year: "2023",
-		title: "Python audio tranlator",
-		tech: "Python, Assembly AI",
-		github: "https://github.com/Alvalens/python-audio-translation",
-		preview: "",
-	},
-	{
-		year: "2023",
-		title: "A4 Education website",
-		tech: "PHP, Laravel, Bootstrap, MySQL, jQuery, DataTables",
-		github: "https://github.com/Alvalens/A4",
-		preview: "",
-	},
-	{
-		year: "2023",
-		title: "Cry Cast crypto forecast",
-		tech: "PHP, Laravel, Bootstrap, MySQL",
-		github: "https://github.com/Alvalens/cry-cast",
-		preview: "",
-	},
-	{
-		year: "2023",
-		title: "Mini Harbor",
-		tech: "Python, Pygame",
-		github: "https://github.com/Alvalens/mini-harbor",
-		preview: "",
-	},
+
 ];
-export default function Page () {
-		const handleBack = () => {
-			window.history.back();
-		};
-  return (
+export default function Page() {
+	const handleBack = () => {
+		window.history.back();
+	};
+	return (
 		<>
 			<main className="overflow-hidden">
 				<FixedButon onClick={handleBack}>
@@ -208,5 +170,5 @@ export default function Page () {
 				</div>
 			</main>
 		</>
-  );
+	);
 }

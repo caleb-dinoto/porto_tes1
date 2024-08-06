@@ -11,9 +11,9 @@ import Card from "./(spotify)/card.jsx";
 import Quote from "./(quote)/quote.jsx";
 
 // images
-import Me1 from "@/public/img/me1.jpg";
+import Me1 from "@/public/img/me1.svg";
 import Me2 from "@/public/img/me2.jpg";
-import Me3 from "@/public/img/me3.jpg";
+
 import Hr from "@/components/Hr";
 
 export default function Page() {
@@ -33,13 +33,13 @@ export default function Page() {
 						className="text-black pr-10"
 					/>
 				</FixedButon>
-				<div className="relative h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden">
+				<div className="relative h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col mb-10 overflow-hidden rounded-xl">
 					<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
 						<motion.div
 							initial={{ scale: 1 }}
 							animate={{ scale: 1.6 }}
 							transition={{ ease: "circOut", duration: 1 }}
-							className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 ">
+							className="bg-slate-300 rounded-xl h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0">
 							<Image
 								src={Me2}
 								alt="Caleb"
@@ -86,7 +86,7 @@ export default function Page() {
 				<div className="relative w-screen mx-auto container gap-4 px-10 grid grid-cols-1 md:grid-cols-2 mb-10">
 					<div className="flex justify-center items-start flex-col mb-5 ">
 						<div className="images relative w-full  aspect-square">
-							<div className="absolute top-28 left-10 w-[50%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
+							<div className="rounded-xl absolute top-28 left-10 w-[60%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
 								<motion.div
 									initial={{ opacity: 0, scale: 0.5, x: 100 }}
 									whileInView={{
@@ -97,54 +97,6 @@ export default function Page() {
 									className="w-full h-full">
 									<Image
 										src={Me1}
-										alt="Caleb"
-										layout="fill"
-										objectFit="cover"
-										placeholder="blur"
-									/>
-								</motion.div>
-							</div>
-							<div className="absolute top-16 right-28 w-[30%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
-								<motion.div
-									initial={{
-										opacity: 0,
-										scale: 0.5,
-										x: -100,
-									}}
-									whileInView={{
-										opacity: 1,
-										scale: 1,
-										x: 0,
-									}}
-									transition={{ delay: 0.3 }}
-									className="w-full h-full">
-									<Image
-										src={Me2}
-										alt="Caleb"
-										layout="fill"
-										objectFit="cover"
-										placeholder="blur"
-									/>
-								</motion.div>
-							</div>
-							<div className="absolute bottom-16 right-20 w-[40%]  aspect-square grayscale hover:grayscale-0 transition-all ease duration-300">
-								<motion.div
-									initial={{
-										opacity: 0,
-										scale: 0.5,
-										x: -100,
-									}}
-									whileInView={{
-										opacity: 1,
-										scale: 1,
-										x: 0,
-									}}
-									transition={{
-										delay: 0.5,
-									}}
-									className="w-full h-full">
-									<Image
-										src={Me3}
 										alt="Caleb"
 										layout="fill"
 										objectFit="cover"
@@ -173,41 +125,25 @@ export default function Page() {
 							Caleb Steve Dinoto
 						</h2>
 						<p className="text-gray-600 text-justify title text-lg">
-							Hey there, I&rsquo;m Caleb Steve Dinoto
-							<span className="text-black font-medium">
-								{" "}
-								tech enthusiast
+							Hey there, I'm Caleb Steve Dinoto, an active student currently pursuing a degree in Informatics Engineering at
+							<span className="text-black font-medium">{" "}
+								Universitas Multimedia Nusantara.
 							</span>{" "}
-							and
-							<span className="text-black font-medium">
-								{" "}
-								aspiring Web Developer.
+							Originating from Tangerang, I've worked part-time as a
+							<span className="text-black font-medium">{" "}
+								barista, waiter, and online shop admin.
 							</span>{" "}
-							Originating from Pasuruan, East Java, Indonesia,
-							I&rsquo;m currently embarking on a fascinating
-							journey at{" "}
-							<span className="text-black font-medium">
-								Universitas Multimedia Nusantara,
+							Originating from Tangerang, I've worked part-time as a
+							<span className="text-black font-medium">{" "}
+								barista, waiter, and online shop admin.
 							</span>{" "}
-							where I&rsquo;m pursuing my degree in{" "}
-							<span className="text-black font-medium">
-								Informatics Engineering.
+							I've also been involved in various campus organizations and committees, contributing to different divisions, including the
+							<span className="text-black font-medium">{" "}
+								website division.
 							</span>{" "}
-							My passion for technology and coding knows no
-							bounds. Beyond the world of coding, I find myself
-							deeply immersed in the realms of design, Game
-							Development, and the fascinating universe of AI. I
-							believe that in today&rsquo;s fast-paced digital
-							landscape, being a
-							<span className="text-black font-medium">
-								{" "}
-								lifelong learner
-							</span>{" "}
-							is not just a choice, but a necessity. Let&rsquo;s
-							connect and explore this ever-evolving world of tech
-							together!
+							I have an adaptable personality, a strong commitment to persistence, and a passion for continuous learning. I'm currently seeking opportunities to deepen my knowledge in informatics through internships.
 						</p>
-						<Card />
+
 					</motion.div>
 				</div>
 				<div className=" w-screen mx-auto container gap-4 p-10 grid grid-cols-1 md:grid-cols-2 mt-10 mb-24">
@@ -236,11 +172,8 @@ export default function Page() {
 								Javascript
 							</span>{" "}
 							|{" "}
-							<span className="text-black font-medium">
-								Typescript
-							</span>{" "}
-							|{" "}
-							<span className="text-black font-bold">React</span>{" "}
+							<span className="text-black font-bold">
+								React</span>{" "}
 							|{" "}
 							<span className="text-black font-medium">
 								NextJS
@@ -258,21 +191,12 @@ export default function Page() {
 								NodeJS
 							</span>{" "}
 							|{" "}
-							<span className="text-black font-medium">
-								ExpressJS
+							<span className="text-black font-bold">
+								MySQL
 							</span>{" "}
 							|{" "}
 							<span className="text-black font-medium">
-								MongoDB
-							</span>{" "}
-							|{" "}
-							<span className="text-black font-bold">MySQL</span>{" "}
-							|{" "}
-							<span className="text-black font-medium">
-								Firebase
-							</span>{" "}
-							|{" "}
-							<span className="text-black font-medium">PHP</span>{" "}
+								PHP</span>{" "}
 							|{" "}
 							<span className="text-black font-bold">
 								Laravel
@@ -309,24 +233,16 @@ export default function Page() {
 							<span className="text-black font-medium">
 								Jet Brains
 							</span>{" "}
-							| <span className="text-black font-bold">Git</span>{" "}
+							| <span className="text-black font-bold">
+								Git
+							</span>{" "}
 							|{" "}
-							<span className="text-black font-bold">Github</span>{" "}
+							<span className="text-black font-bold">
+								Github
+							</span>{" "}
 							|{" "}
 							<span className="text-black font-medium">
 								Figma
-							</span>{" "}
-							|{" "}
-							<span className="text-black font-medium">
-								Adobe Photoshop
-							</span>{" "}
-							|{" "}
-							<span className="text-black font-medium">
-								Adobe Premiere Pro
-							</span>{" "}
-							|{" "}
-							<span className="text-black font-medium">
-								Adobe After Effect
 							</span>{" "}
 							|{" "}
 						</p>
@@ -383,7 +299,7 @@ export default function Page() {
 						</motion.h1>
 					</div>
 				</div>
-				<div className="w-screen mx-auto container gap-10 p-10 grid grid-cols-1 md:grid-cols-2 my-10 ">
+				<div className="w-screen mx-auto container gap-10 p-10 grid grid-cols-1 md:grid-cols-1 my-10 ">
 					<motion.div
 						className="flex justify-center items-start flex-col mb-5 "
 						initial={{
@@ -403,54 +319,19 @@ export default function Page() {
 							Education | Universitas Multimedia Nusantara
 						</h2>
 						<h3 className="text-md font-medium mb-3 text-gray-500">
-							Teknik Informatika | 2022 - Now
+							informatics | 2021 - Now
 						</h3>
 						<p className="pl-3 text-gray-500  relative text-justify">
 							<span className="before:border-s-2 before:absolute before:left-0 before:top-0 before:h-full before:border-gray-400 before:block before:w-2 before:content-'' "></span>
-							I&rsquo;m currently in my third semester at
+							I'm currently in my 7th semester at
 							Universitas Multimedia Nusantara, majoring in Informatics
 							Engineering. This journey has been nothing short of
 							exhilarating, filled with countless opportunities to
 							learn and grow. With a steadfast dedication to my
-							studies, I&rsquo;ve achieved a commendable GPA of
-							3.93. Throughout my academic journey, I&rsquo;ve
+							studies throughout my academic journey, I've
 							delved into various facets of computer science,
 							honing my skills in web development, programming,
 							and problem-solving.
-						</p>
-					</motion.div>
-					<motion.div
-						className="flex justify-center items-start flex-col mb-5 "
-						initial={{
-							opacity: 0,
-							x: 200,
-						}}
-						whileInView={{
-							opacity: 1,
-							x: 0,
-						}}
-						transition={{
-							delay: 0.5,
-
-							type: "spring",
-						}}>
-						<h2 className="text-2xl font-bold mb-3">
-							Experience | Freelance Web Developer
-						</h2>
-						<h3 className="text-md font-medium mb-3 text-gray-500">
-							Fullstack Web Developer | 2023 - Now
-						</h3>
-						<p className="pl-3 text-gray-500 relative text-justify">
-							<span className="before:border-s-2 before:absolute before:left-0 before:top-0 before:h-full before:border-gray-400 before:block before:w-2 before:content-'' "></span>
-							My experience extends across various technologies,
-							with a primary focus on Next.js and Laravel.
-							I&rsquo;ve successfully completed three projects
-							using Next.js and Laravel. What sets me apart is my
-							ability to adapt to different project requirements.
-							Whether working collaboratively as part of a team or
-							independently, I ensure that each project I
-							undertake meets high-quality standards and fulfills
-							the unique needs of clients.
 						</p>
 					</motion.div>
 				</div>
