@@ -208,7 +208,34 @@ const MyPage = () => {
 						</div>
 						<div className="section">
 							<div className="relative md:h-screen w-screen gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
-
+								<div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
+									<motion.div
+										className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0 "
+										initial={{
+											x: 300,
+											opacity: 0,
+											z: -100,
+										}}
+										whileInView={{
+											x: 0,
+											opacity: 0,
+											z: 0,
+										}}
+										transition={{
+											delay: 0.5,
+											type: "spring",
+											stiffness: 100,
+											damping: 20,
+										}}>
+										{/* <Image
+											src={ProjectAll}
+											layout="fill"
+											className="object-cover"
+											alt="Alvalens Setup"
+											placeholder="blur"
+										/> */}
+									</motion.div>
+								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 py-5 rounded-xl">
 									<motion.h1
 										className="bg-white lg:bg-transparent bg-opacity-50 px-3 md-px-0 text-black text-5xl md:text-8xl font-bold"
@@ -255,7 +282,32 @@ const MyPage = () => {
 						<div className="section">
 							<div className="relative md:h-screen w-screen  gap-4 p-10 flex justify-center items-center flex-col overflow-hidden">
 								<div div className="z-0 mb-48 md:mb-0  md:absolute top-1/4  md:right-[10%] md:-translate-y-16 ">
-
+									<motion.div
+										className="bg-slate-300 rounded-sm h-[400px] md:h-[600px] w-[80vw] md:w-[30vw] grayscale hover:grayscale-0"
+										initial={{
+											x: 300,
+											opacity: 0,
+											z: -100,
+										}}
+										whileInView={{
+											x: 0,
+											opacity: 0,
+											z: 0,
+										}}
+										transition={{
+											delay: 0.5,
+											type: "spring",
+											stiffness: 100,
+											damping: 20,
+										}}>
+										{/* <Image
+											src={Setup}
+											layout="fill"
+											className="object-cover"
+											alt="Alvalens Setup"
+											placeholder="blur"
+										/> */}
+									</motion.div>
 								</div>
 								<div className="z-10 w-full absolute md:w-auto  md:left-[10%] top-[60%] md:top-1/3 col-span-2 flex flex-col justify-center items-start md:items-start text-start px-10 overflow-hidden rounded-xl">
 									<motion.h1
